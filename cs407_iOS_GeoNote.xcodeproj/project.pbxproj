@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7B1626A18FE043900904755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B1626918FE043900904755 /* Foundation.framework */; };
+		E7B1626C18FE043900904755 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B1626B18FE043900904755 /* CoreGraphics.framework */; };
+		E7B1626E18FE043900904755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B1626D18FE043900904755 /* UIKit.framework */; };
+		E7B1627418FE043900904755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7B1627218FE043900904755 /* InfoPlist.strings */; };
+		E7B1627618FE043900904755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B1627518FE043900904755 /* main.m */; };
+		E7B1627A18FE043A00904755 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B1627918FE043A00904755 /* AppDelegate.m */; };
+		E7B1627D18FE043A00904755 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B1627B18FE043A00904755 /* Main_iPhone.storyboard */; };
+		E7B1628018FE043A00904755 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B1627E18FE043A00904755 /* Main_iPad.storyboard */; };
+		E7B1628318FE043A00904755 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B1628218FE043A00904755 /* ViewController.m */; };
+		E7B1628518FE043A00904755 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B1628418FE043A00904755 /* Images.xcassets */; };
+		E7B1628C18FE043A00904755 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B1628B18FE043A00904755 /* XCTest.framework */; };
+		E7B1628D18FE043A00904755 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B1626918FE043900904755 /* Foundation.framework */; };
+		E7B1628E18FE043A00904755 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B1626D18FE043900904755 /* UIKit.framework */; };
+		E7B1629618FE043B00904755 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7B1629418FE043B00904755 /* InfoPlist.strings */; };
+		E7B1629818FE043B00904755 /* cs407_iOS_GeoNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B1629718FE043B00904755 /* cs407_iOS_GeoNoteTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7B1628F18FE043A00904755 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7B1625E18FE043900904755 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7B1626518FE043900904755;
+			remoteInfo = cs407_iOS_GeoNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7B1626618FE043900904755 /* cs407_iOS_GeoNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cs407_iOS_GeoNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B1626918FE043900904755 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7B1626B18FE043900904755 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7B1626D18FE043900904755 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7B1627118FE043900904755 /* cs407_iOS_GeoNote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cs407_iOS_GeoNote-Info.plist"; sourceTree = "<group>"; };
+		E7B1627318FE043900904755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7B1627518FE043900904755 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7B1627718FE043A00904755 /* cs407_iOS_GeoNote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cs407_iOS_GeoNote-Prefix.pch"; sourceTree = "<group>"; };
+		E7B1627818FE043A00904755 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7B1627918FE043A00904755 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7B1627C18FE043A00904755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E7B1627F18FE043A00904755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E7B1628118FE043A00904755 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7B1628218FE043A00904755 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7B1628418FE043A00904755 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E7B1628A18FE043A00904755 /* cs407_iOS_GeoNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cs407_iOS_GeoNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B1628B18FE043A00904755 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E7B1629318FE043B00904755 /* cs407_iOS_GeoNoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cs407_iOS_GeoNoteTests-Info.plist"; sourceTree = "<group>"; };
+		E7B1629518FE043B00904755 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7B1629718FE043B00904755 /* cs407_iOS_GeoNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cs407_iOS_GeoNoteTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7B1626318FE043900904755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B1626C18FE043900904755 /* CoreGraphics.framework in Frameworks */,
+				E7B1626E18FE043900904755 /* UIKit.framework in Frameworks */,
+				E7B1626A18FE043900904755 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B1628718FE043A00904755 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B1628C18FE043A00904755 /* XCTest.framework in Frameworks */,
+				E7B1628E18FE043A00904755 /* UIKit.framework in Frameworks */,
+				E7B1628D18FE043A00904755 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7B1625D18FE043900904755 = {
+			isa = PBXGroup;
+			children = (
+				E7B1626F18FE043900904755 /* cs407_iOS_GeoNote */,
+				E7B1629118FE043A00904755 /* cs407_iOS_GeoNoteTests */,
+				E7B1626818FE043900904755 /* Frameworks */,
+				E7B1626718FE043900904755 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7B1626718FE043900904755 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7B1626618FE043900904755 /* cs407_iOS_GeoNote.app */,
+				E7B1628A18FE043A00904755 /* cs407_iOS_GeoNoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7B1626818FE043900904755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7B1626918FE043900904755 /* Foundation.framework */,
+				E7B1626B18FE043900904755 /* CoreGraphics.framework */,
+				E7B1626D18FE043900904755 /* UIKit.framework */,
+				E7B1628B18FE043A00904755 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7B1626F18FE043900904755 /* cs407_iOS_GeoNote */ = {
+			isa = PBXGroup;
+			children = (
+				E7B1627818FE043A00904755 /* AppDelegate.h */,
+				E7B1627918FE043A00904755 /* AppDelegate.m */,
+				E7B1627B18FE043A00904755 /* Main_iPhone.storyboard */,
+				E7B1627E18FE043A00904755 /* Main_iPad.storyboard */,
+				E7B1628118FE043A00904755 /* ViewController.h */,
+				E7B1628218FE043A00904755 /* ViewController.m */,
+				E7B1628418FE043A00904755 /* Images.xcassets */,
+				E7B1627018FE043900904755 /* Supporting Files */,
+			);
+			path = cs407_iOS_GeoNote;
+			sourceTree = "<group>";
+		};
+		E7B1627018FE043900904755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7B1627118FE043900904755 /* cs407_iOS_GeoNote-Info.plist */,
+				E7B1627218FE043900904755 /* InfoPlist.strings */,
+				E7B1627518FE043900904755 /* main.m */,
+				E7B1627718FE043A00904755 /* cs407_iOS_GeoNote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7B1629118FE043A00904755 /* cs407_iOS_GeoNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7B1629718FE043B00904755 /* cs407_iOS_GeoNoteTests.m */,
+				E7B1629218FE043B00904755 /* Supporting Files */,
+			);
+			path = cs407_iOS_GeoNoteTests;
+			sourceTree = "<group>";
+		};
+		E7B1629218FE043B00904755 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7B1629318FE043B00904755 /* cs407_iOS_GeoNoteTests-Info.plist */,
+				E7B1629418FE043B00904755 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7B1626518FE043900904755 /* cs407_iOS_GeoNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B1629B18FE043B00904755 /* Build configuration list for PBXNativeTarget "cs407_iOS_GeoNote" */;
+			buildPhases = (
+				E7B1626218FE043900904755 /* Sources */,
+				E7B1626318FE043900904755 /* Frameworks */,
+				E7B1626418FE043900904755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cs407_iOS_GeoNote;
+			productName = cs407_iOS_GeoNote;
+			productReference = E7B1626618FE043900904755 /* cs407_iOS_GeoNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7B1628918FE043A00904755 /* cs407_iOS_GeoNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B1629E18FE043B00904755 /* Build configuration list for PBXNativeTarget "cs407_iOS_GeoNoteTests" */;
+			buildPhases = (
+				E7B1628618FE043A00904755 /* Sources */,
+				E7B1628718FE043A00904755 /* Frameworks */,
+				E7B1628818FE043A00904755 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7B1629018FE043A00904755 /* PBXTargetDependency */,
+			);
+			name = cs407_iOS_GeoNoteTests;
+			productName = cs407_iOS_GeoNoteTests;
+			productReference = E7B1628A18FE043A00904755 /* cs407_iOS_GeoNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7B1625E18FE043900904755 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Krzysztof Swinarski";
+				TargetAttributes = {
+					E7B1628918FE043A00904755 = {
+						TestTargetID = E7B1626518FE043900904755;
+					};
+				};
+			};
+			buildConfigurationList = E7B1626118FE043900904755 /* Build configuration list for PBXProject "cs407_iOS_GeoNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7B1625D18FE043900904755;
+			productRefGroup = E7B1626718FE043900904755 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7B1626518FE043900904755 /* cs407_iOS_GeoNote */,
+				E7B1628918FE043A00904755 /* cs407_iOS_GeoNoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7B1626418FE043900904755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B1628018FE043A00904755 /* Main_iPad.storyboard in Resources */,
+				E7B1628518FE043A00904755 /* Images.xcassets in Resources */,
+				E7B1627D18FE043A00904755 /* Main_iPhone.storyboard in Resources */,
+				E7B1627418FE043900904755 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B1628818FE043A00904755 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B1629618FE043B00904755 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7B1626218FE043900904755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B1628318FE043A00904755 /* ViewController.m in Sources */,
+				E7B1627A18FE043A00904755 /* AppDelegate.m in Sources */,
+				E7B1627618FE043900904755 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B1628618FE043A00904755 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B1629818FE043B00904755 /* cs407_iOS_GeoNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7B1629018FE043A00904755 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7B1626518FE043900904755 /* cs407_iOS_GeoNote */;
+			targetProxy = E7B1628F18FE043A00904755 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7B1627218FE043900904755 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B1627318FE043900904755 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7B1627B18FE043A00904755 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B1627C18FE043A00904755 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E7B1627E18FE043A00904755 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B1627F18FE043A00904755 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E7B1629418FE043B00904755 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B1629518FE043B00904755 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7B1629918FE043B00904755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7B1629A18FE043B00904755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7B1629C18FE043B00904755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cs407_iOS_GeoNote/cs407_iOS_GeoNote-Prefix.pch";
+				INFOPLIST_FILE = "cs407_iOS_GeoNote/cs407_iOS_GeoNote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7B1629D18FE043B00904755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cs407_iOS_GeoNote/cs407_iOS_GeoNote-Prefix.pch";
+				INFOPLIST_FILE = "cs407_iOS_GeoNote/cs407_iOS_GeoNote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E7B1629F18FE043B00904755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cs407_iOS_GeoNote.app/cs407_iOS_GeoNote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cs407_iOS_GeoNote/cs407_iOS_GeoNote-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cs407_iOS_GeoNoteTests/cs407_iOS_GeoNoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E7B162A018FE043B00904755 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cs407_iOS_GeoNote.app/cs407_iOS_GeoNote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cs407_iOS_GeoNote/cs407_iOS_GeoNote-Prefix.pch";
+				INFOPLIST_FILE = "cs407_iOS_GeoNoteTests/cs407_iOS_GeoNoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7B1626118FE043900904755 /* Build configuration list for PBXProject "cs407_iOS_GeoNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B1629918FE043B00904755 /* Debug */,
+				E7B1629A18FE043B00904755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B1629B18FE043B00904755 /* Build configuration list for PBXNativeTarget "cs407_iOS_GeoNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B1629C18FE043B00904755 /* Debug */,
+				E7B1629D18FE043B00904755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7B1629E18FE043B00904755 /* Build configuration list for PBXNativeTarget "cs407_iOS_GeoNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B1629F18FE043B00904755 /* Debug */,
+				E7B162A018FE043B00904755 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7B1625E18FE043900904755 /* Project object */;
+}
