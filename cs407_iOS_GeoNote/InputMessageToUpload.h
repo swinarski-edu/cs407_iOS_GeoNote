@@ -10,8 +10,9 @@
 #import <CoreLocation/CoreLocation.h>
 
 @interface InputMessageToUpload : UIViewController <CLLocationManagerDelegate> {
-    NSString *currentLongitude;
-    NSString *currentLatitude;
+    float currentLongitude;
+    float currentLatitude;
+    NSString *messageText;
     __weak IBOutlet UITextView *InputText;
 }
 - (IBAction)UploadMessage:(UIButton *)sender;

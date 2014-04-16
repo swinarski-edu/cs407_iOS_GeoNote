@@ -7,6 +7,7 @@
 //
 
 #import "InputMessageToUpload.h"
+#import <Parse/Parse.h>
 
 @interface InputMessageToUpload ()
 
@@ -47,11 +48,25 @@
 }
 
 - (void)ReceivedLocation:(CLLocation *)location {
+    //assign the new location
+    currentLongitude = location.coordinate.longitude;
+    currentLatitude = location.coordinate.latitude;
+    messageText = InputText.text;
+    
     //Preview the entered text on the console
     NSLog(@"Entered text is: %@", InputText.text);
-    NSLog(@"   Longitude: %@", [NSString stringWithFormat:@"%.8f", location.coordinate.longitude]);
-    NSLog(@"   Latitude: %@", [NSString stringWithFormat:@"%.8f", location.coordinate.latitude]);
+    NSLog(@"   Longitude: %@", [NSString stringWithFormat:@"%f", currentLongitude]);
+    NSLog(@"   Latitude: %@", [NSString stringWithFormat:@"%f", currentLatitude]);
     NSLog(@"\n");
+    
+    //Create Parse.com object for the message
+    PFObject *newMessage = [PFObject objectWithClassName:@"Message"];
+    [newMessage setObject:[NSNumber numberWithFloat:currentLongitude] forKey:@"longitude"];
+    [newMessage setObject:[NSNumber numberWithFloat:currentLatitude] forKey:@"latitude"];
+    [newMessage setObject:messageText forKey:@"msgText"];
+    
+    //Upload the object to Parse.com
+    [newMessage saveInBackground];
 }
 
 #pragma mark - CLLocationManagerDelegate

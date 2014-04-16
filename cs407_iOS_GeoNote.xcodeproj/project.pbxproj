@@ -24,6 +24,15 @@
 		E7B1629818FE043B00904755 /* cs407_iOS_GeoNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B1629718FE043B00904755 /* cs407_iOS_GeoNoteTests.m */; };
 		E7B162A318FE0D5400904755 /* InputMessageToUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B162A218FE0D5400904755 /* InputMessageToUpload.m */; };
 		E7B162A518FE11B800904755 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B162A418FE11B800904755 /* CoreLocation.framework */; };
+		E7EFB7B018FF2B5500692049 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EFB7AF18FF2B5500692049 /* Parse.framework */; };
+		E7EFB7B218FF2BE300692049 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EFB7B118FF2BE300692049 /* AudioToolbox.framework */; };
+		E7EFB7B418FF2C2300692049 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EFB7B318FF2C2300692049 /* CFNetwork.framework */; };
+		E7EFB7B618FF2C3600692049 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EFB7B518FF2C3600692049 /* libz.dylib */; };
+		E7EFB7B818FF2C4700692049 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EFB7B718FF2C4700692049 /* MobileCoreServices.framework */; };
+		E7EFB7BA18FF2C4F00692049 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EFB7B918FF2C4F00692049 /* QuartzCore.framework */; };
+		E7EFB7BC18FF2C5700692049 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EFB7BB18FF2C5700692049 /* Security.framework */; };
+		E7EFB7BE18FF2C6700692049 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EFB7BD18FF2C6700692049 /* StoreKit.framework */; };
+		E7EFB7C018FF2C7200692049 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EFB7BF18FF2C7200692049 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +69,15 @@
 		E7B162A118FE0D5300904755 /* InputMessageToUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputMessageToUpload.h; sourceTree = "<group>"; };
 		E7B162A218FE0D5400904755 /* InputMessageToUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputMessageToUpload.m; sourceTree = "<group>"; };
 		E7B162A418FE11B800904755 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E7EFB7AF18FF2B5500692049 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		E7EFB7B118FF2BE300692049 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E7EFB7B318FF2C2300692049 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E7EFB7B518FF2C3600692049 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E7EFB7B718FF2C4700692049 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E7EFB7B918FF2C4F00692049 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E7EFB7BB18FF2C5700692049 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E7EFB7BD18FF2C6700692049 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E7EFB7BF18FF2C7200692049 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +85,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B162A518FE11B800904755 /* CoreLocation.framework in Frameworks */,
+				E7EFB7C018FF2C7200692049 /* SystemConfiguration.framework in Frameworks */,
+				E7EFB7BE18FF2C6700692049 /* StoreKit.framework in Frameworks */,
+				E7EFB7BC18FF2C5700692049 /* Security.framework in Frameworks */,
+				E7EFB7BA18FF2C4F00692049 /* QuartzCore.framework in Frameworks */,
+				E7EFB7B818FF2C4700692049 /* MobileCoreServices.framework in Frameworks */,
+				E7EFB7B618FF2C3600692049 /* libz.dylib in Frameworks */,
 				E7B1626C18FE043900904755 /* CoreGraphics.framework in Frameworks */,
+				E7EFB7B418FF2C2300692049 /* CFNetwork.framework in Frameworks */,
+				E7EFB7B218FF2BE300692049 /* AudioToolbox.framework in Frameworks */,
+				E7B162A518FE11B800904755 /* CoreLocation.framework in Frameworks */,
 				E7B1626E18FE043900904755 /* UIKit.framework in Frameworks */,
 				E7B1626A18FE043900904755 /* Foundation.framework in Frameworks */,
+				E7EFB7B018FF2B5500692049 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +117,7 @@
 		E7B1625D18FE043900904755 = {
 			isa = PBXGroup;
 			children = (
+				E7EFB7AF18FF2B5500692049 /* Parse.framework */,
 				E7B1626F18FE043900904755 /* cs407_iOS_GeoNote */,
 				E7B1629118FE043A00904755 /* cs407_iOS_GeoNoteTests */,
 				E7B1626818FE043900904755 /* Frameworks */,
@@ -109,6 +137,14 @@
 		E7B1626818FE043900904755 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E7EFB7BF18FF2C7200692049 /* SystemConfiguration.framework */,
+				E7EFB7BD18FF2C6700692049 /* StoreKit.framework */,
+				E7EFB7BB18FF2C5700692049 /* Security.framework */,
+				E7EFB7B918FF2C4F00692049 /* QuartzCore.framework */,
+				E7EFB7B718FF2C4700692049 /* MobileCoreServices.framework */,
+				E7EFB7B518FF2C3600692049 /* libz.dylib */,
+				E7EFB7B318FF2C2300692049 /* CFNetwork.framework */,
+				E7EFB7B118FF2BE300692049 /* AudioToolbox.framework */,
 				E7B162A418FE11B800904755 /* CoreLocation.framework */,
 				E7B1626918FE043900904755 /* Foundation.framework */,
 				E7B1626B18FE043900904755 /* CoreGraphics.framework */,
@@ -402,6 +438,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/afs/cs.wisc.edu/u/k/r/krzyszto/Documents/SENIOR/Cs407/iOS/cs407_iOS_GeoNote,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cs407_iOS_GeoNote/cs407_iOS_GeoNote-Prefix.pch";
 				INFOPLIST_FILE = "cs407_iOS_GeoNote/cs407_iOS_GeoNote-Info.plist";
@@ -415,6 +455,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/afs/cs.wisc.edu/u/k/r/krzyszto/Documents/SENIOR/Cs407/iOS/cs407_iOS_GeoNote,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cs407_iOS_GeoNote/cs407_iOS_GeoNote-Prefix.pch";
 				INFOPLIST_FILE = "cs407_iOS_GeoNote/cs407_iOS_GeoNote-Info.plist";
@@ -484,6 +528,7 @@
 				E7B1629D18FE043B00904755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7B1629E18FE043B00904755 /* Build configuration list for PBXNativeTarget "cs407_iOS_GeoNoteTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +537,7 @@
 				E7B162A018FE043B00904755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

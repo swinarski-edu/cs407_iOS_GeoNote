@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>54501902-E644-45DF-90B9-B6723A1A6B50</string>
+	<key>IDESourceControlProjectName</key>
+	<string>cs407_iOS_GeoNote</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EE37090F-D401-4575-9CD6-C23AE5981B75</key>
+		<string>https://github.com/swinarski-edu/cs407_iOS_GeoNote.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cs407_iOS_GeoNote.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EE37090F-D401-4575-9CD6-C23AE5981B75</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/swinarski-edu/cs407_iOS_GeoNote.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EE37090F-D401-4575-9CD6-C23AE5981B75</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE37090F-D401-4575-9CD6-C23AE5981B75</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cs407_iOS_GeoNote</string>
+		</dict>
+	</array>
+</dict>
+</plist>
